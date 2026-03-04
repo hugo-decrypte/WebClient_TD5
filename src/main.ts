@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import toolsPlugin from './plugins/tools'
+import toolsPlugin from './plugins/tools.ts'
 
 const app = createApp(App)
 
